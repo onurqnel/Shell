@@ -11,7 +11,7 @@ int main()
     {
         std::cout << "$ ";
         std::getline(std::cin, input);
-        if (input == "exit")
+        if (input == "exit 0")
         {
             return 0;
         }
