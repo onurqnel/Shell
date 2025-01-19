@@ -33,7 +33,7 @@ int main()
         else if (command == echoCommand)
         {
             string echoInput;
-            getline(iss, echoInput); // Get the rest of the input
+            getline(iss >> ws, echoInput); // Get the rest of the input
             cout << echoInput << endl; // Output
         }
         else
